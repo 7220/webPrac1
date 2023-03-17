@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+}
+
+.main {
+  height: 600px;
+  width: 1440px;
+  background-color: hsl(212, 45%, 89%);
+  padding: 20px ;
+}
+.main .sub {
+  height: 500px;
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  display: block;
+  position: relative;
+}
+.main .sub .qr-img img{
+  scale: 65%;
+  margin: 10px 10px;
+  position: absolute;
+}
+.main .sub .des1 p {
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  align-items: center;
+}
+.main .sub .des2 p {
+  font-size: 14px;
+  position: absolute;
+  align-items: center;
+}
+
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
